@@ -12,6 +12,7 @@ ALLOWED_ORIGINS = {
     "http://127.0.0.1:5175",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://ai-style-kd7p.onrender.com",
 }
 
 ALLOWED_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
