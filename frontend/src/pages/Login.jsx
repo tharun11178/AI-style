@@ -3,7 +3,7 @@ import { RefreshCw, User } from "lucide-react";
 import { login } from "../services/authService.js";
 
 export default function Login({ onLogin }) {
-  const [form, setForm] = useState({ email: "demo@example.com", password: "demo123" });
+  const [form, setForm] = useState({ email: "", password: "" });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
