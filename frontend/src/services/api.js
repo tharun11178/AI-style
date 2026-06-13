@@ -1,4 +1,4 @@
-export const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8002/api";
+export const API_URL = import.meta.env.VITE_API_URL || "https://ai-style0.onrender.com/api";
 export const TOKEN_KEY = "style_wellness_token";
 
 export function getToken() {
