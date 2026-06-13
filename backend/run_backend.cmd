@@ -1,7 +1,7 @@
 @echo off
 cd /d "%~dp0"
 set "PYTHONPATH=%cd%"
-.rem If PORT is not provided by the environment, default to 8002
+rem If PORT is not provided by the environment, default to 8002
 if "%PORT%"=="" (
     set "PORT=8002"
 )
