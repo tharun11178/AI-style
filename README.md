@@ -37,8 +37,7 @@ GET  /api/admin/analytics
 ## Demo Accounts
 
 ```text
-User:  demo@example.com / demo123
-Admin: admin@example.com / admin123
+
 ```
 
 ## Backend
