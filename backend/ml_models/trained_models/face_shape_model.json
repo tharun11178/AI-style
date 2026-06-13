@@ -1,0 +1,26 @@
+{
+  "version": "face-shape-local-1.0.0",
+  "model_type": "deterministic_landmark_rules",
+  "description": "Dependency-free local model configuration used by face_shape_classifier.py. Replace with a real exported model later without changing the API contract.",
+  "face_shapes": [
+    "Oval",
+    "Round",
+    "Square",
+    "Diamond",
+    "Heart",
+    "Rectangle"
+  ],
+  "skin_tones": [
+    "Warm neutral",
+    "Cool neutral",
+    "Golden",
+    "Olive",
+    "Deep warm",
+    "Soft cool"
+  ],
+  "contrast_levels": [
+    "Low",
+    "Medium",
+    "High"
+  ]
+}

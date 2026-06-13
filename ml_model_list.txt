@@ -1,0 +1,54 @@
+ML Model Files
+==============
+
+backend/ml_models/
+  __init__.py
+  face_detection.py
+  landmark_detection.py
+  face_shape_classifier.py
+  recommendation_engine.py
+  outfit_matcher.py
+  hairstyle_matcher.py
+  color_analysis.py
+
+backend/ml_models/datasets/
+  README.md
+  .gitkeep
+
+backend/ml_models/trained_models/
+  README.md
+  face_shape_model.json
+  style_rules.json
+  .gitkeep
+
+Purpose
+=======
+
+face_detection.py
+  Detects an estimated face region from uploaded image bytes.
+
+landmark_detection.py
+  Creates face landmark points and landmark ratios used for shape analysis.
+
+face_shape_classifier.py
+  Connects face detection, landmarks, and color analysis to produce face shape,
+  skin tone, contrast level, symmetry score, and jawline score.
+
+color_analysis.py
+  Analyzes image bytes for skin tone, contrast level, brightness, and warmth.
+
+recommendation_engine.py
+  Loads trained model/rule files and generates hairstyle, outfit, glasses,
+  palette, accessory, and wellness recommendations.
+
+outfit_matcher.py
+  Helper functions for outfit recommendation matching.
+
+hairstyle_matcher.py
+  Helper functions for hairstyle recommendation matching.
+
+trained_models/face_shape_model.json
+  Local model configuration for face shape classification.
+
+trained_models/style_rules.json
+  Styling rules, color palettes, and face-shape recommendation data.

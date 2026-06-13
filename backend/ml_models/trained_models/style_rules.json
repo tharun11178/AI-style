@@ -1,0 +1,150 @@
+{
+  "version": "style-rules-local-1.0.0",
+  "style_by_face": {
+    "Oval": {
+      "hair": [
+        "Textured crop",
+        "Layered side part",
+        "Soft waves"
+      ],
+      "beard": "Most beard styles work; keep the sides neat for balance.",
+      "glasses": [
+        "Square frames",
+        "Geometric frames",
+        "Soft aviators"
+      ]
+    },
+    "Round": {
+      "hair": [
+        "High-volume quiff",
+        "Taper fade with height",
+        "Layered crown"
+      ],
+      "beard": "Add length at the chin and keep cheek volume controlled.",
+      "glasses": [
+        "Angular rectangle frames",
+        "Wayfarer frames",
+        "Browline frames"
+      ]
+    },
+    "Square": {
+      "hair": [
+        "Loose fringe",
+        "Medium textured layers",
+        "Side swept style"
+      ],
+      "beard": "Round the beard edges slightly to soften a strong jawline.",
+      "glasses": [
+        "Round frames",
+        "Oval frames",
+        "Thin metal frames"
+      ]
+    },
+    "Diamond": {
+      "hair": [
+        "Side fringe",
+        "Layered medium cut",
+        "Volume around the temples"
+      ],
+      "beard": "Keep chin length modest and add softness near the jaw.",
+      "glasses": [
+        "Oval frames",
+        "Cat-eye frames",
+        "Rimless frames"
+      ]
+    },
+    "Heart": {
+      "hair": [
+        "Curtain fringe",
+        "Medium layers",
+        "Side part with soft volume"
+      ],
+      "beard": "A short boxed beard can add balance around the chin.",
+      "glasses": [
+        "Bottom-heavy frames",
+        "Rounded rectangle frames",
+        "Light wire frames"
+      ]
+    },
+    "Rectangle": {
+      "hair": [
+        "Classic side part",
+        "Textured fringe",
+        "Medium length with side volume"
+      ],
+      "beard": "Avoid extra chin length; keep fullness on the sides.",
+      "glasses": [
+        "Tall rectangle frames",
+        "Round frames",
+        "Aviators"
+      ]
+    }
+  },
+  "palettes": {
+    "Warm neutral": {
+      "name": "Warm Clarity",
+      "colors": [
+        "#1f6f68",
+        "#f2b880",
+        "#d95d39",
+        "#f7f3e8",
+        "#262626"
+      ]
+    },
+    "Cool neutral": {
+      "name": "Cool Balance",
+      "colors": [
+        "#355070",
+        "#6d597a",
+        "#b56576",
+        "#e9ecef",
+        "#1b1f24"
+      ]
+    },
+    "Golden": {
+      "name": "Golden Everyday",
+      "colors": [
+        "#2d6a4f",
+        "#f2cc8f",
+        "#e07a5f",
+        "#3d405b",
+        "#faf3dd"
+      ]
+    },
+    "Olive": {
+      "name": "Olive Contrast",
+      "colors": [
+        "#283618",
+        "#606c38",
+        "#dda15e",
+        "#fefae0",
+        "#bc6c25"
+      ]
+    },
+    "Deep warm": {
+      "name": "Deep Warm",
+      "colors": [
+        "#12355b",
+        "#d1495b",
+        "#edae49",
+        "#00798c",
+        "#f4f1de"
+      ]
+    },
+    "Soft cool": {
+      "name": "Soft Cool",
+      "colors": [
+        "#4a5759",
+        "#b0c4b1",
+        "#dedbd2",
+        "#edafb8",
+        "#2f3e46"
+      ]
+    }
+  },
+  "accessories": [
+    "Minimal watch",
+    "Clean belt hardware",
+    "One texture accent such as linen or suede"
+  ]
+}

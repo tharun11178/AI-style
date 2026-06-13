@@ -1,0 +1,82 @@
+Frontend Files
+==============
+
+frontend/
+  package.json
+  index.html
+  vite.config.js
+
+frontend/public/
+  logo.png
+  favicon.ico
+
+frontend/src/
+  App.jsx
+  App.js
+  main.jsx
+  index.css
+  styles.css
+
+frontend/src/components/
+  Navbar.jsx
+  Footer.jsx
+  Sidebar.jsx
+  Loader.jsx
+  ImageUploader.jsx
+  OutfitCard.jsx
+  HairstyleCard.jsx
+  ProtectedRoute.jsx
+
+frontend/src/pages/
+  Home.jsx
+  Login.jsx
+  Register.jsx
+  Dashboard.jsx
+  UploadPhoto.jsx
+  FaceAnalysis.jsx
+  OutfitRecommendations.jsx
+  HairstyleRecommendations.jsx
+  ColorPalette.jsx
+  History.jsx
+  Profile.jsx
+
+frontend/src/services/
+  api.js
+  authService.js
+  analysisService.js
+  recommendationService.js
+
+Purpose
+=======
+
+public/logo.png
+  App logo shown in the browser and user interface.
+
+public/favicon.ico
+  Browser tab icon.
+
+src/App.jsx
+  Main React application and app routing/view logic.
+
+src/App.js
+  Compatibility export for App.jsx.
+
+src/main.jsx
+  React entry point.
+
+src/index.css
+  Main CSS entry file.
+
+src/styles.css
+  Full application styling.
+
+src/components/
+  Reusable UI components such as navbar, sidebar, loader, uploader,
+  recommendation cards, and protected route wrapper.
+
+src/pages/
+  App screens for home, login, register, dashboard, photo upload,
+  face analysis, recommendations, color palette, history, and profile.
+
+src/services/
+  API helper files that connect the frontend to the FastAPI backend.
