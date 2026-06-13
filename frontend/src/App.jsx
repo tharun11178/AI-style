@@ -55,7 +55,7 @@ function formatDate(value) {
 
 function AuthScreen({ onAuth }) {
   const [mode, setMode] = useState("login");
-  const [form, setForm] = useState({ name: "", email: "demo@example.com", password: "demo123" });
+  const [form, setForm] = useState({ name: "", email: "", password: "" });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
